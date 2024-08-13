@@ -14,6 +14,7 @@ pnpm dev
 bun dev
 
 npx aceternity-ui@latest init
+npx aceternity-ui@latest add typewriter-effect
 
 ```
 
