@@ -7,7 +7,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 w-full bg-[#030014] bg-opacity-95 shadow-lg z-50">
+        <nav className="fixed top-0 left-0 w-full bg-[#030014] bg-opacity-97 shadow-lg z-50">
             <div className="flex items-center justify-between max-w-7xl mx-auto p-4">
                 {/* Logo e Nome */}
                 <div className="flex items-center space-x-2">
@@ -41,10 +41,10 @@ const Navbar = () => {
 
                 {/* Links de Redes Sociais à Direita */}
                 <div className="hidden md:flex items-center space-x-4">
-                    <a href="#" className="text-white hover:text-gray-300 transition duration-300">
+                    <a href="https://github.com/rafafeltrin" target="_blank" className="text-white hover:text-gray-300 transition duration-300">
                         <FaGithub size={25} />
                     </a>
-                    <a href="#" className="text-white hover:text-gray-300 transition duration-300">
+                    <a href="#" target="_blank" className="text-white hover:text-gray-300 transition duration-300">
                         <FaLinkedin size={25} />
                     </a>
                 </div>
@@ -84,10 +84,10 @@ const Navbar = () => {
                         </a>
                     </li>
                     <div className="flex space-x-4 pt-4">
-                        <a href="#" className="text-white hover:text-gray-300 transition duration-300">
+                        <a href="https://github.com/rafafeltrin" target="_blank" className="text-white hover:text-gray-300 transition duration-300">
                             <FaGithub size={25} />
                         </a>
-                        <a href="#" className="text-white hover:text-gray-300 transition duration-300">
+                        <a href="#" target="_blank" className="text-white hover:text-gray-300 transition duration-300">
                             <FaLinkedin size={25} />
                         </a>
                     </div>
